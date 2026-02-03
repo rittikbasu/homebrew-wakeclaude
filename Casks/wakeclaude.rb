@@ -3,7 +3,7 @@ cask "wakeclaude" do
   name "wakeclaude"
   desc "Schedule Claude Code prompts on macOS."
   homepage "https://github.com/rittikbasu/wakeclaude"
-  version "0.1.2"
+  version "0.1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,11 +14,11 @@ cask "wakeclaude" do
   on_macos do
     on_intel do
       url "https://github.com/rittikbasu/wakeclaude/releases/download/v#{version}/wakeclaude_#{version}_darwin_amd64.tar.gz"
-      sha256 "acff02128ce05c29940b4bbf513e9e38b50c197e267c899e358ef55e01d510f0"
+      sha256 "1482766ae844e2048f7286e5fa81f941b406ade85e2e5d22760044b528952bf8"
     end
     on_arm do
       url "https://github.com/rittikbasu/wakeclaude/releases/download/v#{version}/wakeclaude_#{version}_darwin_arm64.tar.gz"
-      sha256 "fcbbc580a2f4711abbe33c8c946aec952585fa97331817f832e07d7b1ec6a5ba"
+      sha256 "6eabf0f83d69a80afd052f5b51f2ff1469616e5160da2775cc479d1ee4184fe6"
     end
   end
 
